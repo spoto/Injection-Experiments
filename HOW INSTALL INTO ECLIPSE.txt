@@ -1,0 +1,5 @@
+Normally:
+Import->General->Existing Projects into Workspace
+
+EmergencySNRest:
+Import->Maven->Existing Maven Projects

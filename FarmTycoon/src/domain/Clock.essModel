@@ -1,0 +1,86 @@
+[Box: ::domain - ::<<Unknown>>::java.util.AbstractCollection]
+X=20
+Y=40
+
+[Box: ::domain - ::<<Unknown>>::java.util.AbstractMap]
+X=618
+Y=40
+
+[Box: ::domain - ::<<Unknown>>::java.util.AbstractSet]
+X=308
+Y=40
+
+[Box: ::domain - ::<<Unknown>>::Map.Entry]
+X=1925
+Y=620
+
+[Box: ::domain - ::domain::Clock]
+X=1292
+Y=620
+
+[Box: ::domain - ::domain::Controller]
+X=1075
+Y=40
+
+[Box: ::domain - ::domain::Creature]
+X=866
+Y=40
+
+[Box: ::domain - ::domain::EntrySet]
+X=225
+Y=291
+
+[Box: ::domain - ::domain::Farm]
+X=1076
+Y=620
+
+[Box: ::domain - ::domain::Farmer]
+X=867
+Y=1014
+
+[Box: ::domain - ::domain::Game]
+X=1075
+Y=291
+
+[Box: ::domain - ::domain::Invasion]
+X=225
+Y=1014
+
+[Box: ::domain - ::domain::Inventory]
+X=869
+Y=620
+
+[Box: ::domain - ::domain::InventoryIterator]
+X=20
+Y=1014
+
+[Box: ::domain - ::domain::InvItem]
+X=1925
+Y=291
+
+[Box: ::domain - ::domain::KeySet]
+X=430
+Y=291
+
+[Box: ::domain - ::domain::Savable]
+X=1610
+Y=40
+
+[Box: ::domain - ::domain::Tile]
+X=1720
+Y=291
+
+[Box: ::domain - ::domain::TileState]
+X=1720
+Y=620
+
+[Box: ::domain - ::domain::Values]
+X=20
+Y=291
+
+[Diagram: ::domain]
+OffsetX=0
+OffsetY=0
+Visibility=4
+ShowAssoc=1
+

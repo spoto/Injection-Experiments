@@ -1,0 +1,6 @@
+FarmTycoon 100s77 5
+TA2 persistence/MapperList.java:83: [Injection: SqlInjectionWarning - CWE89] Possible SQL-injection into actual parameter "arg 0" of method "executeQuery"
+TA2 persistence/MapperList.java:88: [Injection: SqlInjectionWarning - CWE89] Possible SQL-injection into actual parameter "arg 0" of method "executeUpdate"
+TA2 persistence/MapperList.java:91: [Injection: SqlInjectionWarning - CWE89] Possible SQL-injection into actual parameter "arg 0" of method "executeUpdate"
+TA2 persistence/MapperList.java:116: [Injection: SqlInjectionWarning - CWE89] Possible SQL-injection into actual parameter "arg 0" of method "executeQuery"
+TA2 persistence/mappers/Tile.java:20: [Injection: ReflectionInjectionWarning - CWE470] Possible reflection-injection into actual parameter "arg 0" of method "forName"

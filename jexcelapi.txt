@@ -1,0 +1,7 @@
+JExcelAPI  100s51  6
+TA (from options) jxl/biff/drawing/Drawing.java:357: [Injection: PathInjectionWarning - CWE22] Possible path-traversal injection into actual parameter "arg 0" of method "<init>"
+TA (from file) jxl/read/biff/HyperlinkRecord.java:193: [Injection: URLInjectionWarning - CWE74] Possible URL-injection into actual parameter "arg 0" of method "<init>"
+TA (from file) jxl/read/biff/HyperlinkRecord.java:201: [Injection: PathInjectionWarning - CWE22] Possible path-traversal injection into actual parameter "arg 0" of method "<init>"
+TA (from file) jxl/read/biff/HyperlinkRecord.java:266: [Injection: PathInjectionWarning - CWE22] Possible path-traversal injection into actual parameter "arg 0" of method "<init>"
+FA? jxl/read/biff/WorkbookParser.java:425: [Injection: PathInjectionWarning - CWE22] Possible path-traversal injection into actual parameter "arg 0" of method "<init>"
+FA? jxl/write/biff/HyperlinkRecord.java:208: [Injection: URLInjectionWarning - CWE74] Possible URL-injection into actual parameter "arg 0" of method "<init>"

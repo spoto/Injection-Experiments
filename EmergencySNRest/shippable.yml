@@ -1,0 +1,18 @@
+build_environment:ubuntu1204
+language:java
+jdk:oraclejdk7
+
+before_install: mvn clean
+
+after_success:
+	- mvn clean cobertura:cobertura
+	- mvn test
+	- mvn verify
+
+notifications:
+   email:
+      - aparna.kumar@sv.cmu.edu
+      - gautam.madaan@sv.cmu.edu
+      - chang.yu@sv.cmu.edu
+      - ming.qi@sv.cmu.edu
+      - vishal.chandnani@sv.cmu.edu

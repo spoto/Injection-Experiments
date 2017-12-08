@@ -1,0 +1,5 @@
+EmergencySNRest 53s18  4
+TA edu/cmu/sv/ws/ssnoc/data/dao/MessageDetailDAOImpl.java:433: [Injection: SqlInjectionWarning - CWE89] Possible SQL-injection into actual parameter "arg 0" of method "prepareStatement"
+TA edu/cmu/sv/ws/ssnoc/data/dao/MessageDetailDAOImpl.java:497: [Injection: SqlInjectionWarning - CWE89] Possible SQL-injection into actual parameter "arg 0" of method "prepareStatement"
+TA edu/cmu/sv/ws/ssnoc/data/dao/MessageDetailDAOImpl.java:566: [Injection: SqlInjectionWarning - CWE89] Possible SQL-injection into actual parameter "arg 0" of method "prepareStatement"
+FA edu/cmu/sv/ws/ssnoc/data/util/DBUtils.java:149: [Injection: SqlInjectionWarning - CWE89] Possible SQL-injection into actual parameter "arg 0" of method "execute"

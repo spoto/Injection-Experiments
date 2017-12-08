@@ -1,0 +1,25 @@
+2015-01-21 11:40:48,920 TRACE e.c.s.w.s.d.u.DBUtils [main] Enter - method : createTablesInDB
+2015-01-21 11:40:48,923 INFO e.c.s.w.s.d.u.ConnectionPoolFactory [main] Creating a new ConnectionPoolFactory singleton instance.
+2015-01-21 11:40:48,924 INFO e.c.s.w.s.d.u.H2ConnectionPoolImpl [main] Initializing the connection pool ... 
+2015-01-21 11:40:49,342 TRACE e.c.s.w.s.c.u.PropertyUtils [main] Loading properties files ...
+2015-01-21 11:40:49,377 INFO e.c.s.w.s.d.u.H2ConnectionPoolImpl [main] Connection pool initialized successfully.
+2015-01-21 11:40:49,378 TRACE e.c.s.w.s.d.u.H2ConnectionPoolImpl [main] Enter - method :  ## getConnection ## useTestDBFlag is false
+2015-01-21 11:40:49,580 TRACE e.c.s.w.s.d.u.DBUtils [main] Enter - method :  ## doesTableExistInDB ## SSN_USERS
+2015-01-21 11:40:49,598 TRACE e.c.s.w.s.d.u.DBUtils [main] Exit - method :  ## doesTableExistInDB ## true
+2015-01-21 11:40:49,598 TRACE e.c.s.w.s.d.u.DBUtils [main] Enter - method :  ## doesTableExistInDB ## SSN_MEMORY_TABLE
+2015-01-21 11:40:49,600 TRACE e.c.s.w.s.d.u.DBUtils [main] Exit - method :  ## doesTableExistInDB ## true
+2015-01-21 11:40:49,601 INFO e.c.s.w.s.d.u.DBUtils [main] Tables already exist in database. Not performing any action.
+2015-01-21 11:40:49,601 TRACE e.c.s.w.s.d.u.DBUtils [main] Exit - method : createTablesInDB
+2015-01-21 11:41:35,606 TRACE e.c.s.w.s.r.UsersService [qtp908472323-30] Enter - method : loadUsers
+2015-01-21 11:41:35,608 INFO e.c.s.w.s.d.d.DAOFactory [qtp908472323-30] Creating a new DAOFactory singleton instance.
+2015-01-21 11:41:35,610 TRACE e.c.s.w.s.d.d.UserDAOImpl [qtp908472323-30] Enter - method : loadUsers
+2015-01-21 11:41:35,610 TRACE e.c.s.w.s.d.u.H2ConnectionPoolImpl [qtp908472323-30] Enter - method :  ## getConnection ## useTestDBFlag is false
+2015-01-21 11:41:35,612 TRACE e.c.s.w.s.d.d.UserDAOImpl [qtp908472323-30] Enter - method :  ## processResults ## com.zaxxer.hikari.proxy.PreparedStatementJavassistProxy@24125614
+2015-01-21 11:41:35,612 DEBUG e.c.s.w.s.d.d.UserDAOImpl [qtp908472323-30] Executing stmt = com.zaxxer.hikari.proxy.PreparedStatementJavassistProxy@24125614
+2015-01-21 11:41:35,643 TRACE e.c.s.w.s.d.d.UserDAOImpl [qtp908472323-30] Exit - method :  ## processResults ## [{"userId":1,"userName":"SSNAdmin","password":"4a422a7e36b2ed07dffbfad5fe3c6f26","salt":"8dfad0843f168ef57dd3ae89d18b5ed4","profession":"Administrator","role":"Administrator","accountStatus":"Active","latitude":0.0,"longitude":0.0}]
+2015-01-21 11:41:35,645 TRACE e.c.s.w.s.d.d.MessageDetailDAOImpl [qtp908472323-30] Enter - method : loadStatuses
+2015-01-21 11:41:35,645 TRACE e.c.s.w.s.d.u.H2ConnectionPoolImpl [qtp908472323-30] Enter - method :  ## getConnection ## useTestDBFlag is false
+2015-01-21 11:41:35,646 TRACE e.c.s.w.s.d.d.MessageDetailDAOImpl [qtp908472323-30] Enter - method :  ## processResults ## com.zaxxer.hikari.proxy.PreparedStatementJavassistProxy@3d41d07f
+2015-01-21 11:41:35,647 DEBUG e.c.s.w.s.d.d.MessageDetailDAOImpl [qtp908472323-30] Executing stmt = com.zaxxer.hikari.proxy.PreparedStatementJavassistProxy@3d41d07f
+2015-01-21 11:41:35,647 TRACE e.c.s.w.s.d.d.MessageDetailDAOImpl [qtp908472323-30] Exit - method :  ## processResults ## []
+2015-01-21 11:41:35,670 TRACE e.c.s.w.s.r.UsersService [qtp908472323-30] Exit - method :  ## loadUsers ## [{"userName":"SSNAdmin","profession":"Administrator","role":"Administrator","accountStatus":"Active","latitude":0.0,"longitude":0.0}]

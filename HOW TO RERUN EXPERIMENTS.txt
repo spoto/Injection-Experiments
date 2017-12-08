@@ -1,0 +1,11 @@
+Experiments can be rerun on the Julia cloud service:
+
+- connect to https://portal.juliasoft.com
+- create an account
+- download and install the Eclipse plugin as described at login time
+- click on the Eclipse project to analyze
+- click on the J icon for Julia in Eclipse
+- deselect all basic and advanced checkers
+- in the advanced checkers section, select Injection only
+- click to Finish and wait until the analysis completes
+- inspect the warnings in the Julia view in Eclipse
