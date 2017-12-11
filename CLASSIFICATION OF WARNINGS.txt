@@ -1,0 +1,7 @@
+Each project has been analyzed and the set of warnings is reported in the
+corresponding .txt file. There, each warning has been classified as:
+
+TA: true alarm
+TA2: true alarm that uses a two-level flow of information: first from tainted sources into a database, later from the database into sinks
+FA: false alarm
+FA?: classification was impossible for this. We conservatively counted it as a false alarm
