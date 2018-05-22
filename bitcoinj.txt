@@ -1,0 +1,12 @@
+Time 354.2 seconds
+
+There are 7 warnings:
+
+org/bitcoinj/core/PeerAddress.java:196: [Injection: AddressInjectionWarning - CWE74] Possible Internet address-injection through actual parameter "arg 0" of method "getByAddress"
+org/bitcoinj/net/BlockingClient.java:77: [Injection: ResourceInjectionWarning - CWE74] Possible resource-injection into actual parameter "arg 0" of method "connect"
+org/bitcoinj/net/discovery/DnsDiscovery.java:91: [Injection: AddressInjectionWarning - CWE74] Possible Internet address-injection through actual parameter "arg 0" of method "getAllByName"
+org/bitcoinj/net/discovery/SeedPeers.java:111: [Injection: AddressInjectionWarning - CWE74] Possible Internet address-injection through actual parameter "arg 0" of method "getByAddress"
+org/bitcoinj/protocols/payments/PaymentSession.java:326: [Injection: URLInjectionWarning - CWE74] Possible URL-injection into actual parameter "arg 0" of method "<init>"
+org/bitcoinj/utils/BlockFileLoader.java:66: [Injection: PathInjectionWarning - CWE22] Possible path-traversal injection into actual parameter "arg 0" of method "<init>"
+org/bitcoinj/wallet/WalletProtobufSerializer.java:539: [Injection: ReflectionInjectionWarning - CWE470] Possible reflection-injection into actual parameter "arg 0" of method "forName"
+
